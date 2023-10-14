@@ -1,15 +1,16 @@
 body{
-  background-image: url('cafe1.jpg');
+  background-image: url("rio.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
-h1{
-  background-color: bisque;
+body{
+  color: rgb(18, 1, 1); 
+  background-color: #333; 
+  text-align:left;
 }
 
- ul.navbar {
+ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,15 +24,36 @@ li.nav-item {
 
 li.nav-item a {
     display: block;
-    color: white; /* Text color for the links */
+    color: white; 
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration-line:none;
+}
+
+.nav-item a:active {
+  background-color: #555; 
 }
 
 li.nav-item a:hover {
-    background-color: #555; /* Background color for the links on hover */
+    background-color: #555;
 }
 
+.rightheader {
+  list-style-type:none;
+}
 
+li.nav-item-right {
+  float: right;
+}
 
+li.nav-item-right a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration-line:none;
+}
+
+.nav-item-right a:hover{
+  background-color:#555;
+} 
